@@ -6,6 +6,8 @@ A simple k-nearest neighbors (KNN) classifier algorithm implementation in python
 ```_knn = knn(k=8, distanceFunc=manhatten)```
 #### fit model with trainingsdata
 ```_knn.fit(trainData,trainLabels)```
+#### predict label for a sample
+```prediction = _knn.predict(sample)```
 #### test model with testdata
 ```score = _knn.score(testData,testLabels)```
 
