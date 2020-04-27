@@ -7,7 +7,7 @@ A simple k-nearest neighbors (KNN) classifier algorithm implementation in python
 #### fit model with trainingsdata
 ```_knn.fit(trainData,trainLabels)```
 #### predict label for a sample
-```prediction = _knn.predict(sample)```
+```predictions = _knn.predict(samples)```
 #### test model with testdata
 ```score = _knn.score(testData,testLabels)```
 
